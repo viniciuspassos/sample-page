@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+footer,
+.header {
+  flex-basis: 80%;
+  background-color: #1f2937;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.car-logo {
+  max-width: 200px;
+  height: auto;
+  padding: 8px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-link:hover {
+  color: blue;
+}

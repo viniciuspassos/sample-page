@@ -3,35 +3,36 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 footer,
 .header {
-  flex-basis: 80%;
+  margin: 0 100px;
   background-color: #1f2937;
+}
+
+.header {
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 500px;
+}
+
+.links,
+.logo {
+  margin-top: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 li {
   list-style: none;
 }
 
-.header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.car-logo {
-  max-width: 200px;
-  height: auto;
-  padding: 8px;
-}
-
 .links {
   display: flex;
   gap: 20px;
+  margin-left: auto;
 }
 
 .header-link {
@@ -42,4 +43,43 @@ li {
 
 .header-link:hover {
   color: blue;
+}
+.container,
+.header-text,
+.menu {
+  display: flex;
+}
+
+.header-text {
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 480px;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.img-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.old-car {
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+}
+
+button {
+  background-color: #3882f6;
+  width: 100px;
+  border-radius: 7px;
 }

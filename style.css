@@ -126,3 +126,25 @@ button {
 .cards p {
   text-align: center;
 }
+
+.quote-session {
+  background-color: #e5e7eb;
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 500px;
+}
+
+.quote {
+  width: 700px;
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.autor-name {
+  margin-left: auto;
+  font-weight: bold;
+}

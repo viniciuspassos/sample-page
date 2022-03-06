@@ -148,3 +148,44 @@ button {
   margin-left: auto;
   font-weight: bold;
 }
+
+.call-session {
+  background-color: white;
+  margin: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  background-color: #3882f6;
+  width: 60%;
+  height: 150px;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#last-btn {
+  color: white;
+  margin: 50px;
+  border-color: white;
+  width: 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #1f2937;
+  margin: 0 100px;
+  padding: 20px;
+}
